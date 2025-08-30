@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "minimal-api", "minimal-api.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{A7326E04-ECFB-4FE6-B1E1-626C7101B823}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiTest", "..\ApiTest\ApiTest.csproj", "{A8F29947-B552-4276-8410-06A3AAFC6B54}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +22,10 @@ Global
 		{A7326E04-ECFB-4FE6-B1E1-626C7101B823}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A7326E04-ECFB-4FE6-B1E1-626C7101B823}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A7326E04-ECFB-4FE6-B1E1-626C7101B823}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8F29947-B552-4276-8410-06A3AAFC6B54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8F29947-B552-4276-8410-06A3AAFC6B54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8F29947-B552-4276-8410-06A3AAFC6B54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8F29947-B552-4276-8410-06A3AAFC6B54}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
