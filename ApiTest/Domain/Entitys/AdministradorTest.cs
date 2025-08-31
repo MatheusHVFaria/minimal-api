@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ApiTest.Domain
+namespace ApiTest.Domain.Entitys
 {
     [TestClass]
     public class AdministradorTest
