@@ -94,6 +94,15 @@ namespace MinimalAPI
                     );
             });
 
+            services.AddCors(options =>
+            {
+                options.AddDefaultPolicy(builder =>
+                {
+                    builder.AllowAnyOrigin()
+                        .AllowAnyMethod()
+                        .AllowAnyHeader();
+                });
+            });
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -105,6 +114,8 @@ namespace MinimalAPI
 
             app.UseAuthentication();
             app.UseAuthorization();
+
+            app.UseCors();
 
             app.UseEndpoints(endPoints =>
             {
